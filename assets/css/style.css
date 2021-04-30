@@ -1,0 +1,108 @@
+
+/*--------------------------------------------Heading*/
+
+
+*{
+    box-sizing: border-box !important;
+}
+
+nav {
+    border:2px solid black;
+    padding-bottom: 3px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    margin: 0px !important;
+}
+
+nav ul li a{
+    color: black;
+    margin-right: 20px;
+    text-transform: uppercase;
+    padding: 10px;
+    font-family: 'Lato', sans-serif;
+}
+
+nav ul li a:hover{
+    text-decoration: none;
+}
+
+.logo {
+    font-weight: 600;
+    font-size: larger;
+    color: #28a745;
+}
+
+.margin-1 {
+    margin-left: 30%;
+}
+
+.margin-2 {
+    margin-left: 10%;
+}
+.no-transform {
+    text-transform: none;
+    margin-top: 5px;
+}
+
+.hero-area {
+    background-image: url("../images/Crossfitness1.jpg");
+    height: 80vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    
+}
+
+.hero-area h1 {
+    color:white;
+	font-family: 'Antonio', sans-serif;
+    font-size: 70px;
+    font-style: italic;
+    font-weight: 500;       
+}
+
+.hero-area h2 {
+
+		color:white;
+		font-family: 'Antonio', sans-serif;
+	}
+
+	.hero-area p {
+		color: white
+	}
+
+	.hero-inner{
+		padding-top:10%;
+        padding-left:5%;
+	}
+
+	.transparent{
+
+		 background: rgba(0, 0, 0, 0.4);
+		 border:3px solid black;
+         padding:2rem;
+         margin-top: 30px;
+    }
+
+	.cstm-btn-2{
+		font-size:32px;
+		font-weight: 900;
+		border-radius: 45%;
+		line-height: 1;
+        float:right;
+    }
+
+    .clear{
+		clear: both;
+	}
+	.margin-3{
+		margin-top:3rem;
+    }
+    
