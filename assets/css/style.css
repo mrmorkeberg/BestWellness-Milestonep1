@@ -108,14 +108,14 @@ nav ul li a:hover{
     
     /*--------------------------------------------Section info about the gym*/
 
-    .section-1 h1, .section-1 p{
+    .section-1 h2, .section-1 p{
 
         text-align: center;
         margin-top: 25px;
     }
 
-    .section-1 h1{
-		margin-bottom:2rem;
+    .section-1 h2{
+        margin-bottom:2rem;
 	}
 
 	.cstm-card img{
@@ -154,3 +154,28 @@ nav ul li a:hover{
     .margin-6 {
         margin-top: 1rem;
     }
+
+ /*--------------------------------------------Footer*/
+
+    	footer {
+		margin-top:5rem;
+        margin-bottom: 5rem;
+	}
+
+	footer h2{
+		text-align: center;
+	}
+	footer h2 i{
+		margin-left:15px;
+
+	}
+
+	footer p{
+		text-align: center;
+		margin-top:2rem;
+	}
+
+	footer p span{
+		border:1px solid black ;
+		padding:10px;
+	}
