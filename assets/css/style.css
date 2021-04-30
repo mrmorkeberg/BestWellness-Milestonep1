@@ -106,3 +106,51 @@ nav ul li a:hover{
 		margin-top:3rem;
     }
     
+    /*--------------------------------------------Section info about the gym*/
+
+    .section-1 h1, .section-1 p{
+
+        text-align: center;
+        margin-top: 25px;
+    }
+
+    .section-1 h1{
+		margin-bottom:2rem;
+	}
+
+	.cstm-card img{
+		width: 100%;
+	}
+	p{
+		font-weight: bold;
+    }
+    
+    .margin-4{
+		margin-top:4rem;
+    }
+    
+    @media (min-width: 768px){
+		.cstm-card img {
+			height: 70%;
+		}
+    }
+
+    /*--------------------------------------------Section Contact*/
+
+    .section-2{
+
+		margin-top:4rem;
+
+	}
+	.section-2 p{
+		font-weight: 900;
+		text-align: center;
+    }
+
+    .margin-5 {
+        margin-top: 2rem;
+    }
+    
+    .margin-6 {
+        margin-top: 1rem;
+    }
